@@ -28,8 +28,8 @@ app.post("/create-payment", async (req, res) => {
             },
             {
                 headers: {
-                    "api-token": 4637a43f8e8db38a97a5d68a110758d3,
-                    "secret-key": 40961dcda5338e0cad148a6838fc3dbb
+                    "api-token": API_TOKEN,
+                    "secret-key": SECRET_KEY
                 }
             }
         );
